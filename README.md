@@ -18,15 +18,16 @@ The pipeline involves the following main steps:
 
    ![Raw Data](readme/tongquan.jpg)
 
-### 2. **Staging in SQL Server**
+### 2. **ETL and Data Modeling**
+   - The ETL (Extract, Transform, Load) process involves cleaning, transforming, and loading the staged data into the final fact and dimension tables in SQL Server. These tables are used for analysis and reporting.
+
+   ![ETL Process](readme/ETL.jpg)
+### 3. **Staging in SQL Server**
    - The raw data is imported into a staging table in SQL Server for initial loading and organization.
 
    ![Staging](readme/model.jpg)
 
-### 3. **ETL and Data Modeling**
-   - The ETL (Extract, Transform, Load) process involves cleaning, transforming, and loading the staged data into the final fact and dimension tables in SQL Server. These tables are used for analysis and reporting.
 
-   ![ETL Process](readme/ETL.jpg)
 
 ### 4. **Power BI Dashboard**
    - A Power BI dashboard is created to visualize key metrics. The dashboard includes total revenue, quantity sold, revenue by product categories, and market segmentation.
